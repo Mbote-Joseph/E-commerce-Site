@@ -28,4 +28,5 @@ a {
   display: flex;
   justify-content: space-between;
   margin-right: 30px;
+  font-size: 25px;
 }
