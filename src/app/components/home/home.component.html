@@ -1,14 +1,19 @@
 <div class="container">
   <div class="row">
     <div class="col-md-4 col-sm-12 col-lg-4 my-3" *ngFor="let list of list">
-      <div class="card text-center" (click)="itemSelected(list)">
-        <div class="card-header">Featured</div>
+      <div class="card" style="width: 18rem" (click)="itemSelected(list)">
+        <img
+          class="card-img-top"
+          src="../../../assets/images/index.jpeg"
+          alt="Card image cap"
+        />
         <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">With supporting text below as a natural</p>
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title
+          </p>
           <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
-        <div class="card-footer text-muted">2 days ago</div>
       </div>
     </div>
   </div>
