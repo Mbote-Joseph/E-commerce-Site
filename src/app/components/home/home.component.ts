@@ -10,5 +10,9 @@ export class HomeComponent implements OnInit {
 
   constructor() {}
 
+  itemSelected(item: number): void {
+    console.log(item);
+  }
+
   ngOnInit(): void {}
 }
