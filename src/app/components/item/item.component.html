@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" *ngIf="!clicked">
   <div class="row">
     <div class="col-md-6 col-sm-12 col-lg-6 my-6">
       <div class="card" style="width: 18rem">
@@ -12,9 +12,12 @@
           <p class="card-text">
             Some quick example text to build on the card title
           </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <a (click)="itemClicked()" class="btn btn-primary">Back</a>
         </div>
       </div>
     </div>
   </div>
+</div>
+<div *ngIf="clicked">
+  <app-home></app-home>
 </div>
