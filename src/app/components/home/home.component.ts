@@ -12,6 +12,7 @@ export class HomeComponent implements OnInit {
   constructor() {}
 
   itemSelected(item: number): void {
+    this.clicked = true;
     console.log(item);
   }
 
