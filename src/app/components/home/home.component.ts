@@ -33,6 +33,14 @@ export class HomeComponent implements OnInit {
       price: 55,
       available: false,
     },
+    {
+      id: 4,
+      name: 'Ter Stegen',
+      description:
+        'Ter Stegen is an open-source project built on top of the world. It is built on top of the world. It is built on top of the world.',
+      price: 55,
+      available: false,
+    },
   ];
   clicked: boolean = false;
   currentItem: number = 0;
