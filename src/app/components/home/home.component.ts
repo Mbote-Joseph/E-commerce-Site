@@ -57,6 +57,13 @@ export class HomeComponent implements OnInit {
       price: 55,
       available: false,
     },
+    {
+      id: 7,
+      name: "Joseph Mbote",
+      description:"The test data description",
+      price: 60,
+      available: true
+    }
   ];
   clicked: boolean = false;
   currentItem: number = 0;
