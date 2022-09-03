@@ -59,11 +59,19 @@ export class HomeComponent implements OnInit {
     },
     {
       id: 7,
-      name: "Joseph Mbote",
-      description:"The test data description",
+      name: 'Joseph Mbote',
+      description: 'The test data description',
       price: 60,
-      available: true
-    }
+      available: true,
+    },
+
+    {
+      id: 8,
+      name: 'Joseph Mbote',
+      description: 'The test data description',
+      price: 60,
+      available: true,
+    },
   ];
   clicked: boolean = false;
   currentItem: number = 0;
