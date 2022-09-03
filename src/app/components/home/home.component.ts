@@ -64,9 +64,15 @@ export class HomeComponent implements OnInit {
       price: 60,
       available: true,
     },
-
     {
       id: 8,
+      name: 'Joseph Mbote',
+      description: 'The test data description',
+      price: 60,
+      available: true,
+    },
+    {
+      id: 9,
       name: 'Joseph Mbote',
       description: 'The test data description',
       price: 60,
