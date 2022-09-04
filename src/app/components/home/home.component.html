@@ -34,10 +34,11 @@
           alt="Card image cap"
         />
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
+          <h5 class="card-title">{{ item.name }}</h5>
           <p class="card-text">
-            Some quick example text to build on the card title
+            {{ item.description }}
           </p>
+
           <h5>{{ item.price | currency }}</h5>
           <a href="#" class="btn btn-primary">Back</a>
         </div>
