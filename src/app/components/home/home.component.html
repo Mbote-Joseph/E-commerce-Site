@@ -23,3 +23,25 @@
 <div *ngIf="clicked">
   <app-item [item]="currentItem"></app-item>
 </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-sm-12 col-lg-6">
+      <div class="card" style="width: 36rem">
+        <img
+          class="card-img-top img-responsive"
+          src="../../../assets/images/index.jpeg"
+          alt="Card image cap"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title
+          </p>
+          <h5>{{ item | currency }}</h5>
+          <a href="#" class="btn btn-primary">Back</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
