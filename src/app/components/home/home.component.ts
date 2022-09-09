@@ -8,6 +8,7 @@ import { Item } from 'src/app/shared/Item';
 })
 export class HomeComponent implements OnInit {
   list: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+
   items: Item[] = [
     {
       id: 1,
@@ -122,6 +123,13 @@ export class HomeComponent implements OnInit {
     },
     {
       id: 16,
+      name: 'Joseph Mbote',
+      description: 'The test data description',
+      price: 60,
+      available: true,
+    },
+    {
+      id: 17,
       name: 'Joseph Mbote',
       description: 'The test data description',
       price: 60,
