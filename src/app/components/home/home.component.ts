@@ -171,12 +171,19 @@ export class HomeComponent implements OnInit {
       available: true,
     },
     {
-      id:23,
+      id: 23,
       name: 'Joseph Mbote',
       description: 'The test data description',
       price: 60,
       available: true,
-    }
+    },
+    {
+      id: 24,
+      name: 'Joseph Mbote',
+      description: 'The test data description',
+      price: 60,
+      available: true,
+    },
   ];
   clicked: boolean = false;
   currentItem: number = 0;
