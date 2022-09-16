@@ -105,5 +105,9 @@ export class HomeComponent implements OnInit {
     console.log(item);
   }
 
+  addItem(item: Item): void {
+    this.items.push(item);
+  }
+
   ngOnInit(): void {}
 }
