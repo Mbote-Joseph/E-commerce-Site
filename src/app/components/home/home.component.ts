@@ -122,5 +122,9 @@ export class HomeComponent implements OnInit {
     });
   }
 
+  selectItem(item: Item): void {
+    this.currentItem = item.id;
+  }
+
   ngOnInit(): void {}
 }
