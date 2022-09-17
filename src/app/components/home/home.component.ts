@@ -126,5 +126,12 @@ export class HomeComponent implements OnInit {
     this.currentItem = item.id;
   }
 
+  isItemSelected(item: Item): boolean {
+    if (item.id === this.currentItem) {
+      return true;
+    }
+    return false;
+  }
+
   ngOnInit(): void {}
 }
