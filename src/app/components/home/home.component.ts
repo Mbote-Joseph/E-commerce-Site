@@ -144,5 +144,9 @@ export class HomeComponent implements OnInit {
     this.items.push(item);
   }
 
+  deleteItemNew(item: Item): void {
+    this.items = this.items.filter((i) => i.id !== item.id);
+  }
+
   ngOnInit(): void {}
 }
