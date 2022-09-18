@@ -140,5 +140,9 @@ export class HomeComponent implements OnInit {
     return false;
   }
 
+  addItemNew(item: Item): void {
+    this.items.push(item);
+  }
+
   ngOnInit(): void {}
 }
