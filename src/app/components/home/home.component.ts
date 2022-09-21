@@ -133,13 +133,6 @@ export class HomeComponent implements OnInit {
     return false;
   }
 
-  isItemAvailable(item: Item): boolean {
-    if (item.available) {
-      return true;
-    }
-    return false;
-  }
-
   addItemNew(item: Item): void {
     this.items.push(item);
   }
