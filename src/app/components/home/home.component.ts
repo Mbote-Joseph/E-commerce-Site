@@ -137,5 +137,14 @@ export class HomeComponent implements OnInit {
     this.items = this.items.filter((i) => i.id !== item.id);
   }
 
+  updateItemNew(item: Item): void {
+    this.items = this.items.map((i) => {
+      if (i.id === item.id) {
+        i = item;
+      }
+      return i;
+    });
+  }
+
   ngOnInit(): void {}
 }
