@@ -133,10 +133,6 @@ export class HomeComponent implements OnInit {
     return false;
   }
 
-  addItemNew(item: Item): void {
-    this.items.push(item);
-  }
-
   deleteItemNew(item: Item): void {
     this.items = this.items.filter((i) => i.id !== item.id);
   }
