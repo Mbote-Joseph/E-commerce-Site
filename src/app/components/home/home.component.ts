@@ -126,6 +126,13 @@ export class HomeComponent implements OnInit {
     return false;
   }
 
+  isItemNotAvailable(item: Item): boolean {
+    if (!item.available) {
+      return true;
+    }
+    return false;
+  }
+
   deleteItemNew(item: Item): void {
     this.items = this.items.filter((i) => i.id !== item.id);
   }
